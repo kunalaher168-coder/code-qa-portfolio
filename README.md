@@ -22,5 +22,3 @@ The audit checks **3,616** invented cases and finds **826** mismatches. The firs
 2. Inspect the candidate and oracle to see that they use different methods.
 3. Run `python audit.py` and `python -m unittest discover -s tests -v` from the `qa-review` branch.
 4. Read the [finding](https://github.com/kunalaher168-coder/code-qa-portfolio/blob/qa-review/FINDING.md) as the review deliverable.
-
-This sample demonstrates test design and defect communication. It does not publish private prompts, rubrics, traces, client code, or review scores. Machine learning examples and competitive programming examples live in separate repositories: [Machine Learning](https://github.com/kunalaher168-coder/machine-learning-portfolio) and [Competitive Coding](https://github.com/kunalaher168-coder/competitive-coding).
