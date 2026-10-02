@@ -26,7 +26,7 @@ class CodeReviewTests(unittest.TestCase):
         report = run_audit()
         self.assertEqual(report["dataset"], "invented small integer intervals")
         self.assertEqual(report["cases_checked"], 3616)
-        self.assertGreater(report["mismatches"], 0)
+        self.assertEqual(report["mismatches"], 826)
         self.assertEqual(report["first_failure"]["input"], [(0, 1), (1, 2)])
         self.assertEqual(report["first_failure"]["expected"], [(0, 2)])
 
