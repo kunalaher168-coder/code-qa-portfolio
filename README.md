@@ -34,4 +34,4 @@ The test suite passes when it correctly detects the **intentional** candidate de
 
 ## Scope
 
-The exhaustive check covers a deliberately small integer domain. It is useful for finding a concise counterexample, but it is not a proof for unbounded production inputs. The [portfolio index](https://github.com/kunalaher168-coder/code-qa-portfolio) explains how to review this sample and links the separate ML and competitive-coding repositories.
+The exhaustive check covers a deliberately small integer domain. It is useful for finding a concise counterexample, but it is not a proof for unbounded production inputs.
